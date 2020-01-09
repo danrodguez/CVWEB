@@ -23,11 +23,7 @@ body {font-family: Verdana, sans-serif;color:black;background-image: url("../Ima
   margin-right: auto;
 
 }
-.fotocircular{
-    border-radius= "50%";
 
-
-}
 h1{
     color: #FFFFFF;
   	font-family: "Enriqueta", serif;
@@ -35,6 +31,8 @@ h1{
   	line-height: 48px;
 
 }
+
+
 header {
   width: 100%;
 
