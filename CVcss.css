@@ -1,0 +1,212 @@
+
+@import url(http://fonts.googleapis.com/css?family=Enriqueta:400,700);
+
+
+@import url(https://fonts.googleapis.com/css?family=Cantora+One);
+body {font-family: Verdana, sans-serif;color:black;background-image: url("../Imagenes/background.jpg"); background-repeat: no-repeat;
+ background-attachment: fixed; background-position: center;background-repeat: no-repeat; background-size: cover;}
+
+ .fotocircular {
+  border-radius: 50%;
+ }
+ .elegantshadow {
+   color: #e0dfdc;
+     letter-spacing: .1em;
+     text-shadow:
+       0 -1px 0 #fff,
+       0 1px 0 #2e2e2e,
+       0 2px 0 #2c2c2c,
+       0 3px 0 #2a2a2a,
+       0 4px 0 #282828,
+       0 5px 0 #262626,
+       0 6px 0 #242424,
+       0 7px 0 #222,
+       0 8px 0 #202020,
+       0 9px 0 #1e1e1e,
+       0 10px 0 #1c1c1c,
+       0 11px 0 #1a1a1a,
+       0 12px 0 #181818,
+       0 13px 0 #161616,
+       0 14px 0 #141414,
+       0 15px 0 #121212,
+       0 22px 30px rgba(0, 0, 0, 0.9);
+   }
+ .letras:first-letter{
+              text-transform: uppercase;
+         }
+
+       .letras {
+font: bold 24px/45px Helvetica, Sans-Serif;
+letter-spacing: -1px;
+background: rgb(0, 0, 0); /* fallback color */
+background: rgba(0, 0, 0, 0.7);
+padding: 10px;
+         color:#6A9CA7;
+         	font-family: Courier New;
+       	font-weight: normal;
+          font-size: 1.75em;
+       	letter-spacing: .2em;
+       	line-height: 1.1em;
+       	margin:0px;
+       	text-align: center;
+       	text-transform: uppercase;
+       }
+
+
+       .experiencias {
+font: bold 24px/45px Helvetica, Sans-Serif;
+letter-spacing: -1px;
+background: rgb(0, 0, 0); /* fallback color */
+background: rgba(0, 0, 0, 0.7);
+background-size: cover;
+       color:#6A9CA7;
+       	font-family: Courier New;
+       	font-weight: normal;
+        font-size: 1.75em;
+       	letter-spacing: .2em;
+       	text-align: center;
+       	text-transform: uppercase;
+
+       }
+img {
+  width:250px;
+  height:250px;
+
+}
+ .center {
+   display: flex;
+   justify-content: center;
+   text-align: center;
+
+}
+.centerimg  {
+  margin-top: 15em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.centertext {
+  margin-top: 10em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.centerexperiencia {
+  margin-top: 10em;
+  display: left;
+
+
+
+}
+h1{
+    color: #FFFFFF;
+  	font-family: "Enriqueta", serif;
+  	font-size: 40px;
+  	line-height: 48px;
+
+}
+
+h3{
+  font-size: 20px;
+}
+.h12 { color: #7c795d; font-family: 'Trocchi', serif; font-size: 45px; font-weight: normal; line-height: 48px; margin: 0; }
+
+header {
+  width: 100%;
+
+
+}
+
+
+.hidden {
+  opacity:0;
+}
+.console-container {
+  margin-left: auto;
+  margin-right: auto;
+  font-family:Khula;
+  font-size:44px;
+  height:150px; /* 200px before */
+  width:700px;  /* 600px before */
+  color:WHITE;
+}
+
+
+
+
+
+
+nav[role="full-horizontal"] {
+  position: absolute;
+  margin-left:31.5%;
+ width: 70%;
+  top:2%;
+
+
+}
+nav[role="full-horizontal"] ul {
+  margin: auto;
+  list-style: none;
+}
+
+
+
+
+nav[role="full-horizontal"] ul > li  {
+  position:relative;
+  float: left;
+  padding: .25em 1em;
+  margin-left: 1%;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  border-radius: .75em;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  transition-property: background, color, padding, border-radius;
+  box-shadow: 0.1em -0.1em 0 0.1em rgba(0, 0, 0, 0.2), inset 0 0 0 0.15em rgba(0, 0, 0, 0.4), -0.1em 0.1em 0 0.1em rgba(0, 0, 0, 0.2);
+}
+
+nav[role="full-horizontal"] ul > li:last-child:after {
+  box-shadow: none;
+}
+nav[role="full-horizontal"] ul > li:hover {
+  background-color: rgba(65, 65, 65);
+  padding-left: 3em;
+}
+nav[role="full-horizontal"] ul > li:hover > a {
+  color: #fff;
+}
+nav[role="full-horizontal"] ul > li > a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.4em;
+  transition: color .3s ease-in-out;
+}
+nav[role="full-horizontal"] ul > li#special > a#special {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4em;
+  transition: color .3s ease-in-out;
+}
+nav[role="full-horizontal"] ul > li#special:hover > a#special {
+  color: #333;
+}
+
+
+nav[role="full-horizontal"] ul > li#special  {
+  position:relative;
+  float: left;
+  padding: .25em 1em;
+  margin-left: 1%;
+  text-transform: uppercase;
+  cursor: pointer;
+  background: rgba(65, 65, 65, 1);
+  text-align: center;
+  border-radius: .75em;
+  box-shadow: 0.1em -0.1em 0 0.1em rgba(0, 0, 0, 0.2), inset 0 0 0 0.15em rgba(0, 0, 0, 0.4), -0.1em 0.1em 0 0.1em rgba(0, 0, 0, 0.2);
+}
